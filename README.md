@@ -1,4 +1,4 @@
-# Web Scraper & Server with Docker
+https://github.com/SUTANSHU03/NewScrapeProject.git# Web Scraper & Server with Docker
 Files Included
 1. scrape.js — Node.js script using Puppeteer to scrape data.
 
@@ -69,8 +69,8 @@ Stage 2 – Web Server (Python + Flask)
 
 # Steps to build and run the container 
  1. Clone the Repo
-    git clone https://github.com/your-username/scrape-and-serve.git
-    cd scrape-and-serve
+    git clone https://github.com/SUTANSHU03/NewScrapeProject.git
+    cd NewScrapeProject
 
 2. Build the Docker Image
    Pass the URL you want to scrape using the build argument SCRAPE_URL:
