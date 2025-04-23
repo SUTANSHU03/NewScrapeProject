@@ -74,12 +74,13 @@ Stage 2 – Web Server (Python + Flask)
 
 2. Build the Docker Image
    Pass the URL you want to scrape using the build argument SCRAPE_URL:
+   
       docker build --build-arg SCRAPE_URL=https://example.com -t scraper-host .
 
-3. Run the Container
+4. Run the Container
        docker run -p 5000:5000 scraper-host
 
-4. View the Result
+5. View the Result
    Open your browser and visit:
            http://localhost:5000
 
