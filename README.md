@@ -1,4 +1,4 @@
-https://github.com/SUTANSHU03/NewScrapeProject.git# Web Scraper & Server with Docker
+# Web Scraper & Server with Docker
 Files Included
 1. scrape.js — Node.js script using Puppeteer to scrape data.
 
