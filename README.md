@@ -69,23 +69,32 @@ Stage 2 – Web Server (Python + Flask)
 
 # Steps to build and run the container 
  1. Clone the Repo
+  
     git clone https://github.com/SUTANSHU03/NewScrapeProject.git
+    
     cd NewScrapeProject
 
-2. Build the Docker Image
+3. Build the Docker Image
+   
    Pass the URL you want to scrape using the build argument SCRAPE_URL:
    
       docker build --build-arg SCRAPE_URL=https://example.com -t scraper-host .
 
-4. Run the Container
-       docker run -p 5000:5000 scraper-host
+5. Run the Container
 
-5. View the Result
+ 
+    docker run -p 5000:5000 scraper-host
+
+7. View the Result
+   
    Open your browser and visit:
-           http://localhost:5000
+   
+     http://localhost:5000
 
 5.You will see a JSON output like this:
-      {
+
+
+{
   "title": "Example Domain",
   "heading": "Example Domain"
   "url": "https://example.com"
